@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74AUC2G34
+D Dual Buffer, Low-Voltage CMOS
+K Dual Buffer LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP 74LVC2G34
+D Dual Buffer, Low-Voltage CMOS, power-pins
+K Dual Buffer LVC CMOS
+F http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf
+$ENDCMP
+#
+$CMP ADUM1301
+D Triple-Channel Digital Isolators
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM1300_1301.pdf
+$ENDCMP
+#
+$CMP DCDC-SIP7-1-2-4-6
+D DCDC Converter Single SIL Package
+$ENDCMP
+#
+$CMP DCDC-SIP8-1-2-(3)-6-7
+D DCDC Converter Single SIL Package
+$ENDCMP
+#
+#End Doc Library
