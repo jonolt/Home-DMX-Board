@@ -534,7 +534,7 @@ F 1 "74LVC2G34" H 14250 4700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-6" H 14500 4550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 14500 4550 50  0001 C CNN
 	1    14500 4550
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L my_lib:74LVC2G34 U61
@@ -601,8 +601,8 @@ F 3 "~" H 11800 8300 50  0001 C CNN
 $EndComp
 Text Notes 12950 11050 0    50   ~ 0
 03.05.2020
-Text Notes 15400 11050 0    50   ~ 0
-V2.0
+Text Notes 15450 11050 0    50   ~ 0
+1
 Wire Wire Line
 	6750 3850 6350 3850
 Wire Wire Line
@@ -1023,7 +1023,6 @@ F 3 "~" H 11700 1950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11550 1950 10450 1950
-Connection ~ 10350 2650
 $Comp
 L my_lib:ADUM1301 U6
 U 1 1 5F411570
@@ -1037,7 +1036,6 @@ F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADuM130
 $EndComp
 Wire Wire Line
 	10450 2750 10450 1950
-Connection ~ 10450 2750
 Wire Wire Line
 	10600 2400 10600 2900
 Wire Wire Line
@@ -1577,11 +1575,9 @@ Connection ~ 3450 6700
 Wire Wire Line
 	3450 6700 3500 6700
 Wire Wire Line
-	14100 4550 14250 4550
+	14450 4700 14450 4800
 Wire Wire Line
-	14500 4700 14500 4800
-Wire Wire Line
-	14500 4800 12950 4800
+	14450 4800 12950 4800
 Connection ~ 12950 4800
 Wire Wire Line
 	12950 3700 13400 3700
@@ -1592,9 +1588,9 @@ Connection ~ 12950 4550
 Wire Wire Line
 	12950 4550 12950 4800
 Wire Wire Line
-	14450 4400 14450 4300
+	14500 4400 14500 4300
 Wire Wire Line
-	14450 4300 12450 4300
+	14500 4300 12450 4300
 Connection ~ 12450 4300
 Wire Wire Line
 	12450 4300 12450 4100
@@ -1869,10 +1865,6 @@ Text Label 9750 2750 2    50   ~ 0
 TX
 Text Label 9750 2650 2    50   ~ 0
 RX
-Wire Wire Line
-	10350 2650 11200 2650
-Wire Wire Line
-	10450 2750 11200 2750
 Wire Wire Line
 	11700 7350 11750 7350
 Wire Wire Line
@@ -2667,5 +2659,19 @@ Wire Wire Line
 Wire Wire Line
 	4750 6750 4750 6700
 Text Notes 12200 10950 0    79   ~ 0
-Home-DMX-Control
+Home-DMX-Control v2.0
+Wire Wire Line
+	14100 4550 14250 4550
+Wire Wire Line
+	10450 2750 11200 2650
+Connection ~ 10450 2750
+Wire Wire Line
+	10350 2650 11200 2750
+Connection ~ 10350 2650
+Text Notes 14500 4850 0    50   ~ 0
+rev1
+Text Notes 10800 2800 0    50   ~ 0
+rev1
+Text Notes 10650 7500 0    50   ~ 0
+rev1
 $EndSCHEMATC
